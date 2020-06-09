@@ -1,4 +1,4 @@
-score = eval(input("your value = "))
+score = int(input("Masukkan nilai anda = "))
 
 if score >= 90 :
 
@@ -19,3 +19,4 @@ elif score  >= 60 and score < 70 :
 elif score < 60 :
 
   print("grade E")
+
